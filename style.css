@@ -75,10 +75,12 @@ body {
   align-items: center;
   justify-content: center;
 }
+
 .stat:nth-child(1),
 .stat:nth-child(2) {
   border-bottom: 1px solid rgba(0, 0, 0, 0.08);
 }
+
 .stat:nth-child(2),
 .stat:nth-child(4) {
   border-left: 1px solid rgba(0, 0, 0, 0.08);
@@ -89,6 +91,11 @@ body {
   font-size: 35px;
   margin-bottom: 10px;
 }
+
+.stat__number--limit {
+  color: red;
+}
+
 .second__heading {
   font-weight: 500;
   color: #747a7c;
